@@ -33,11 +33,16 @@ class PlaySoundsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func playAudio(rate: Float) {
-        // Stop the audio player and engine to fix overlap issue.
+    func stopAllTheThings() {
+        // Stops the audio player and engine and then resets the audioEngine
+        // Fix for overlapping audio issue.
         audioPlayer.stop()
         audioEngine.stop()
         audioEngine.reset()
+    }
+    
+    func playAudio(rate: Float) {
+        stopAllTheThings()
         
         audioPlayer.rate = rate
         audioPlayer.currentTime = 0
@@ -53,9 +58,7 @@ class PlaySoundsViewController: UIViewController {
         playAudio(1.5)
     }
     func playAudioWithVariablePitch(pitch: Float) {
-        audioPlayer.stop()
-        audioEngine.stop()
-        audioEngine.reset()
+        stopAllTheThings()
         
         var audioPlayerNode = AVAudioPlayerNode()
         audioEngine.attachNode(audioPlayerNode)
@@ -81,9 +84,7 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func stopAudio(sender: UIButton) {
-        audioPlayer.stop()
-        audioEngine.stop()
-        audioEngine.reset()
+        stopAllTheThings()
     }
 
 }
