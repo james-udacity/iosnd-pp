@@ -12,20 +12,24 @@
 	<dict>
 		<key>57D3310A311747F4881620D256912749821535C7</key>
 		<string>bitbucket.org:ecspike/ios-pitchperfect.git</string>
+		<key>A893DA9AED0A45B30E25006CBECB06B15F0D95B2</key>
+		<string>github.com:james-udacity/iosnd-pp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Pitch Perfect.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>57D3310A311747F4881620D256912749821535C7</key>
+		<string>../../../ios-pitchperfect</string>
+		<key>A893DA9AED0A45B30E25006CBECB06B15F0D95B2</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>bitbucket.org:ecspike/ios-pitchperfect.git</string>
+	<string>github.com:james-udacity/iosnd-pp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>57D3310A311747F4881620D256912749821535C7</string>
+	<string>A893DA9AED0A45B30E25006CBECB06B15F0D95B2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>57D3310A311747F4881620D256912749821535C7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios-pitchperfect</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A893DA9AED0A45B30E25006CBECB06B15F0D95B2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosnd-pp</string>
 		</dict>
 	</array>
 </dict>
